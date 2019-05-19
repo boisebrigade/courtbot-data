@@ -8,6 +8,6 @@ defmodule CourtbotWeb.Router do
   scope "/", CourtbotWeb do
     pipe_through :api
 
-    get "/csv/:count", SampleController, :csv
+    get "/csv/:count", CsvController, :idaho
   end
 end
